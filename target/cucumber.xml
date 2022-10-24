@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="118.555">
+    <testcase classname="validating home insurance" name="validation with scenario outline" time="72.674">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given user in the home page.................................................passed
+When selecting 'Auto' from product dropdown.................................passed
+And Entering '11217' in zip code............................................passed
+And click start qoute button................................................passed
+And User enters all personal info...........................................failed
+Then User will see the quote................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at common.CommonAction.sendText(CommonAction.java:64)
+	at object.HomeOwnerInfo.firstName(HomeOwnerInfo.java:39)
+	at object.HomeOwnerInfo.homeOwnerSteps(HomeOwnerInfo.java:81)
+	at stepsDefinationHome.StepsHome.user_enters_all_personal_info(StepsHome.java:39)
+	at ✽.User enters all personal info(file:///C:/Users/rksun/eclipse-workspace/BDD_Satefarm_/features/HomeInsurance.feature:38)
+]]></failure>
+    </testcase>
+    <testcase classname="validating home insurance" name="validation with scenario outline 2" time="45.628">
+        <system-out><![CDATA[Given user in the home page.................................................passed
+When selecting 'Homeowners' from product dropdown...........................passed
+And Entering '11218' in zip code............................................passed
+And click start qoute button................................................passed
+And User enters all personal info...........................................passed
+Then User will see the quote................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,264 @@
+[
+  {
+    "line": 21,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-06T17:46:11.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11406450600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "validation with scenario outline",
+        "description": "",
+        "id": "validating-home-insurance;validation-with-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 475203000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.Hook.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46096400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user in the home page",
+            "match": {
+              "location": "stepsDefinationHome.StepsHome.user_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238977500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "selecting \u0027Auto\u0027 from product dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Auto\u0027",
+                  "offset": 10
+                }
+              ],
+              "location": "stepsDefinationHome.StepsHome.selecting_from_product_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237572700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Entering \u002711217\u0027 in zip code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002711217\u0027",
+                  "offset": 9
+                }
+              ],
+              "location": "stepsDefinationHome.StepsHome.entering_in_zip_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1376335400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "click start qoute button",
+            "match": {
+              "location": "stepsDefinationHome.StepsHome.click_start_qoute_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat common.CommonAction.sendText(CommonAction.java:64)\r\n\tat object.HomeOwnerInfo.firstName(HomeOwnerInfo.java:39)\r\n\tat object.HomeOwnerInfo.homeOwnerSteps(HomeOwnerInfo.java:81)\r\n\tat stepsDefinationHome.StepsHome.user_enters_all_personal_info(StepsHome.java:39)\r\n\tat ✽.User enters all personal info(file:///C:/Users/rksun/eclipse-workspace/BDD_Satefarm_/features/HomeInsurance.feature:38)\r\n",
+              "duration": 58764453500,
+              "status": "failed"
+            },
+            "line": 38,
+            "name": "User enters all personal info",
+            "match": {
+              "location": "stepsDefinationHome.StepsHome.user_enters_all_personal_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1003700,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User will see the quote",
+            "match": {
+              "location": "stepsDefinationHome.StepsHome.user_will_see_the_quote()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home"
+          },
+          {
+            "name": "@multiData"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-06T17:47:23.769Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24187026600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "validation with scenario outline",
+        "description": "",
+        "id": "validating-home-insurance;validation-with-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 307821500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.Hook.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4983800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user in the home page",
+            "match": {
+              "location": "stepsDefinationHome.StepsHome.user_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169003000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "selecting \u0027Homeowners\u0027 from product dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Homeowners\u0027",
+                  "offset": 10
+                }
+              ],
+              "location": "stepsDefinationHome.StepsHome.selecting_from_product_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151833700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Entering \u002711218\u0027 in zip code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002711218\u0027",
+                  "offset": 9
+                }
+              ],
+              "location": "stepsDefinationHome.StepsHome.entering_in_zip_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1260855000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "click start qoute button",
+            "match": {
+              "location": "stepsDefinationHome.StepsHome.click_start_qoute_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19536201300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User enters all personal info",
+            "match": {
+              "location": "stepsDefinationHome.StepsHome.user_enters_all_personal_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 724400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User will see the quote",
+            "match": {
+              "location": "stepsDefinationHome.StepsHome.user_will_see_the_quote()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home"
+          },
+          {
+            "name": "@multiData"
+          }
+        ]
+      }
+    ],
+    "name": "validating home insurance",
+    "description": "",
+    "id": "validating-home-insurance",
+    "keyword": "Feature",
+    "uri": "file:features/HomeInsurance.feature",
+    "tags": []
+  }
+]
